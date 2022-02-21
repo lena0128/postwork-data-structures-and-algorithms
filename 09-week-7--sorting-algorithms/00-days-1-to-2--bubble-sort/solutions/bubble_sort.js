@@ -88,4 +88,6 @@ module.exports = bubbleSort;
 // we'll exit the outer loop and return the Array.
 // Big O for time complexity is O(n^2) quadratic time because of the loop within a loop. 
 // In the worst case we'll end up going over the whole Array roughly once per element.
+// The space complexity for Bubble Sort is O(1), because only a single additional 
+// memory space is required i.e. for temp variable. 
 /************************************************************************************/
